@@ -1,0 +1,240 @@
+2023-11-18 20:34:26.760 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-18 20:34:26.983 +02:00 [DBG] Hosting starting
+2023-11-18 20:34:27.042 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D41854D7BDA48EE00ADD8988344AACD78FDEE082)
+2023-11-18 20:34:27.064 +02:00 [INF] Now listening on: https://localhost:7010
+2023-11-18 20:34:27.065 +02:00 [INF] Now listening on: http://localhost:5255
+2023-11-18 20:34:27.066 +02:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-18 20:34:27.066 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-18 20:34:27.067 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-18 20:34:27.067 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-18 20:34:27.067 +02:00 [INF] Hosting environment: Development
+2023-11-18 20:34:27.068 +02:00 [INF] Content root path: C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\
+2023-11-18 20:34:27.068 +02:00 [DBG] Hosting started
+2023-11-18 20:34:27.558 +02:00 [DBG] Connection id "0HMV8CJVFUHA1" accepted.
+2023-11-18 20:34:27.560 +02:00 [DBG] Connection id "0HMV8CJVFUHA1" started.
+2023-11-18 20:34:27.594 +02:00 [DBG] Connection 0HMV8CJVFUHA1 established using the following protocol: "Tls12"
+2023-11-18 20:34:27.627 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/index.html - -
+2023-11-18 20:34:27.644 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-18 20:34:27.704 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-11-18 20:34:27.751 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-11-18 20:34:27.756 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/index.html - - - 200 - text/html;charset=utf-8 130.3635ms
+2023-11-18 20:34:27.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - -
+2023-11-18 20:34:27.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/_vs/browserLink - -
+2023-11-18 20:34:27.762 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 3.9088ms
+2023-11-18 20:34:27.768 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.9106ms
+2023-11-18 20:34:27.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - -
+2023-11-18 20:34:27.917 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.0281ms
+2023-11-18 21:06:24.180 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Sqlite'.
+2023-11-18 21:06:24.599 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-11-18 21:06:24.671 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:06:24.673 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:06:24.674 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:06:24.674 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:06:24.716 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-11-18 21:06:35.562 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Sqlite'.
+2023-11-18 21:06:35.979 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-11-18 21:06:36.013 +02:00 [DBG] Migrating using database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.017 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.026 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.034 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-18 21:06:36.039 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-11-18 21:06:36.040 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.043 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.047 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:06:36.059 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:06:36.061 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.062 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.063 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.064 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.064 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-18 21:06:36.064 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-11-18 21:06:36.064 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.064 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.064 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:06:36.065 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:06:36.065 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.065 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.073 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-11-18 21:06:36.073 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-11-18 21:06:36.073 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.074 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.074 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-18 21:06:36.074 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-18 21:06:36.077 +02:00 [DBG] A data reader was disposed.
+2023-11-18 21:06:36.077 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.077 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.085 +02:00 [INF] Applying migration '20231118190624_addDesciptionForPoint'.
+2023-11-18 21:06:36.110 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.111 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.112 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-11-18 21:06:36.113 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-11-18 21:06:36.114 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-18 21:06:36.114 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-18 21:06:36.115 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231118190624_addDesciptionForPoint', '6.0.0');
+2023-11-18 21:06:36.115 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231118190624_addDesciptionForPoint', '6.0.0');
+2023-11-18 21:06:36.116 +02:00 [DBG] Committing transaction.
+2023-11-18 21:06:36.129 +02:00 [DBG] Committed transaction.
+2023-11-18 21:06:36.131 +02:00 [DBG] Disposing transaction.
+2023-11-18 21:06:36.131 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:06:36.131 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:06:36.132 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-11-18 21:09:16.758 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Sqlite'.
+2023-11-18 21:09:17.190 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-11-18 21:09:17.261 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:09:17.263 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:09:17.264 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:09:17.264 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:09:17.306 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-11-18 21:09:21.313 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Sqlite'.
+2023-11-18 21:09:21.771 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-11-18 21:09:21.804 +02:00 [DBG] Migrating using database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.809 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.818 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.826 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-18 21:09:21.831 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-11-18 21:09:21.832 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.834 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.839 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:09:21.851 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:09:21.853 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.854 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.855 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.856 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.856 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-18 21:09:21.856 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-11-18 21:09:21.856 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.856 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.856 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:09:21.856 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:09:21.856 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.856 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.865 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-11-18 21:09:21.865 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-11-18 21:09:21.865 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.865 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.865 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-18 21:09:21.865 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-18 21:09:21.868 +02:00 [DBG] A data reader was disposed.
+2023-11-18 21:09:21.868 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.868 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.876 +02:00 [INF] Applying migration '20231118190917_addDesciptionForPoints'.
+2023-11-18 21:09:21.901 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.901 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.903 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-11-18 21:09:21.905 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-11-18 21:09:21.906 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-18 21:09:21.906 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-18 21:09:21.906 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231118190917_addDesciptionForPoints', '6.0.0');
+2023-11-18 21:09:21.907 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231118190917_addDesciptionForPoints', '6.0.0');
+2023-11-18 21:09:21.908 +02:00 [DBG] Committing transaction.
+2023-11-18 21:09:21.920 +02:00 [DBG] Committed transaction.
+2023-11-18 21:09:21.921 +02:00 [DBG] Disposing transaction.
+2023-11-18 21:09:21.921 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:09:21.921 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:09:21.922 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-11-18 21:11:47.368 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Sqlite'.
+2023-11-18 21:11:47.786 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-11-18 21:11:47.860 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:11:47.862 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:11:47.863 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:11:47.863 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:11:47.867 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:11:47.868 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:11:47.868 +02:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-18 21:11:47.868 +02:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-18 21:11:47.911 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-11-18 21:11:51.889 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Sqlite'.
+2023-11-18 21:11:52.315 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-11-18 21:11:52.348 +02:00 [DBG] Migrating using database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.352 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.361 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.368 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-18 21:11:52.373 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-11-18 21:11:52.374 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.377 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.381 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:11:52.393 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:11:52.394 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.396 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.397 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.398 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.398 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-18 21:11:52.398 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-11-18 21:11:52.398 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.398 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.398 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:11:52.398 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-18 21:11:52.398 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.398 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.408 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-11-18 21:11:52.408 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-11-18 21:11:52.408 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.408 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.409 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-18 21:11:52.409 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-18 21:11:52.412 +02:00 [DBG] A data reader was disposed.
+2023-11-18 21:11:52.412 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.412 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.419 +02:00 [INF] Applying migration '20231118191147_addDesciptionForPointsss'.
+2023-11-18 21:11:52.447 +02:00 [DBG] Opening connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.447 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.448 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-11-18 21:11:52.450 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-11-18 21:11:52.451 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-18 21:11:52.451 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-18 21:11:52.451 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfIntrest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-11-18 21:11:52.452 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfIntrest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-11-18 21:11:52.452 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-18 21:11:52.452 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-18 21:11:52.452 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231118191147_addDesciptionForPointsss', '6.0.0');
+2023-11-18 21:11:52.470 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231118191147_addDesciptionForPointsss', '6.0.0');
+2023-11-18 21:11:52.471 +02:00 [DBG] Committing transaction.
+2023-11-18 21:11:52.484 +02:00 [DBG] Committed transaction.
+2023-11-18 21:11:52.485 +02:00 [DBG] Disposing transaction.
+2023-11-18 21:11:52.485 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\cityInfo.db'.
+2023-11-18 21:11:52.485 +02:00 [DBG] Closed connection to database 'main' on server 'cityInfo.db'.
+2023-11-18 21:11:52.486 +02:00 [DBG] 'CityInfoContext' disposed.

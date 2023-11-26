@@ -1,0 +1,73 @@
+2023-11-18 20:26:16.932 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-18 20:26:17.011 +02:00 [DBG] Hosting starting
+2023-11-18 20:26:17.066 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D41854D7BDA48EE00ADD8988344AACD78FDEE082)
+2023-11-18 20:26:17.090 +02:00 [INF] Now listening on: https://localhost:7010
+2023-11-18 20:26:17.090 +02:00 [INF] Now listening on: http://localhost:5255
+2023-11-18 20:26:17.091 +02:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-18 20:26:17.091 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-18 20:26:17.091 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-18 20:26:17.092 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-18 20:26:17.093 +02:00 [INF] Hosting environment: Development
+2023-11-18 20:26:17.093 +02:00 [INF] Content root path: C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\
+2023-11-18 20:26:17.094 +02:00 [DBG] Hosting started
+2023-11-18 20:26:17.247 +02:00 [DBG] Connection id "0HMV8CFDBUG6F" accepted.
+2023-11-18 20:26:17.248 +02:00 [DBG] Connection id "0HMV8CFDBUG6G" accepted.
+2023-11-18 20:26:17.251 +02:00 [DBG] Connection id "0HMV8CFDBUG6F" started.
+2023-11-18 20:26:17.252 +02:00 [DBG] Connection id "0HMV8CFDBUG6G" started.
+2023-11-18 20:26:17.252 +02:00 [DBG] Connection id "0HMV8CFDBUG6F" received FIN.
+2023-11-18 20:26:17.252 +02:00 [DBG] Connection id "0HMV8CFDBUG6G" received FIN.
+2023-11-18 20:26:17.252 +02:00 [DBG] Connection id "0HMV8CFDBUG6H" accepted.
+2023-11-18 20:26:17.258 +02:00 [DBG] Connection id "0HMV8CFDBUG6H" started.
+2023-11-18 20:26:17.266 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-18 20:26:17.266 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-18 20:26:17.280 +02:00 [DBG] Connection id "0HMV8CFDBUG6F" stopped.
+2023-11-18 20:26:17.280 +02:00 [DBG] Connection id "0HMV8CFDBUG6G" stopped.
+2023-11-18 20:26:17.282 +02:00 [DBG] Connection id "0HMV8CFDBUG6F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-18 20:26:17.282 +02:00 [DBG] Connection id "0HMV8CFDBUG6G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-18 20:26:17.292 +02:00 [DBG] Connection 0HMV8CFDBUG6H established using the following protocol: "Tls12"
+2023-11-18 20:26:17.331 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/index.html - -
+2023-11-18 20:26:17.352 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-18 20:26:17.417 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-11-18 20:26:17.470 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-11-18 20:26:17.473 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/index.html - - - 200 - text/html;charset=utf-8 144.5951ms
+2023-11-18 20:26:17.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - -
+2023-11-18 20:26:17.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/_vs/browserLink - -
+2023-11-18 20:26:17.483 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 2.6772ms
+2023-11-18 20:26:17.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6710ms
+2023-11-18 20:26:17.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - -
+2023-11-18 20:26:17.678 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.9898ms
+2023-11-18 20:27:25.369 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-18 20:27:25.434 +02:00 [DBG] Hosting starting
+2023-11-18 20:27:25.483 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D41854D7BDA48EE00ADD8988344AACD78FDEE082)
+2023-11-18 20:27:25.505 +02:00 [INF] Now listening on: https://localhost:7010
+2023-11-18 20:27:25.507 +02:00 [INF] Now listening on: http://localhost:5255
+2023-11-18 20:27:25.508 +02:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-18 20:27:25.509 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-18 20:27:25.509 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-18 20:27:25.510 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-18 20:27:25.510 +02:00 [INF] Hosting environment: Development
+2023-11-18 20:27:25.510 +02:00 [INF] Content root path: C:\Users\Qotayba\source\repos\CityInfo\CityInfo.API\
+2023-11-18 20:27:25.511 +02:00 [DBG] Hosting started
+2023-11-18 20:27:25.638 +02:00 [DBG] Connection id "0HMV8CG1O6EI7" accepted.
+2023-11-18 20:27:25.641 +02:00 [DBG] Connection id "0HMV8CG1O6EI7" started.
+2023-11-18 20:27:25.673 +02:00 [DBG] Connection 0HMV8CG1O6EI7 established using the following protocol: "Tls12"
+2023-11-18 20:27:25.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/index.html - -
+2023-11-18 20:27:25.721 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-18 20:27:25.776 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-11-18 20:27:25.830 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-11-18 20:27:25.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/index.html - - - 200 - text/html;charset=utf-8 133.2561ms
+2023-11-18 20:27:25.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - -
+2023-11-18 20:27:25.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/_vs/browserLink - -
+2023-11-18 20:27:25.838 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 2.7123ms
+2023-11-18 20:27:25.844 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.8876ms
+2023-11-18 20:27:25.892 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - -
+2023-11-18 20:27:25.967 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.3647ms
+2023-11-18 20:27:29.974 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
